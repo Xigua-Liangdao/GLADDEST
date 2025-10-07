@@ -42,16 +42,7 @@ PYTHONPATH=. python src/transition_method.py +experiment=Tox21_MMP dataset=Tox21
 	general.test_only=checkpoints/graph-tf-model/epoch=999.ckpt
 ```
 
-## Provided checkpoint (example)
+## Provided checkpoint
 
 We provide a checkpoint for `Tox21_MMP` testing. Use one of the test-only methods above to point `general.test_only` to the file (either via `CKPT_PATH` or a relative path under `checkpoints/`).
-
-##  Transition-method evaluation
-
-There is an evaluation script that computes anomaly scores over a time-interpolation process:
-
-```bash
-PYTHONPATH=. python src/transition_method.py +experiment=Tox21_MMP dataset=Tox21_MMP \
-	general.test_only=checkpoints/graph-tf-model/epoch=999.ckpt
-```
 
