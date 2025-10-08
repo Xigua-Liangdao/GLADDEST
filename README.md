@@ -48,6 +48,6 @@ We provide a checkpoint for `Tox21_MMP` testing. Use one of the test-only method
 
 
 ## Acknowledgements
-DeFoG: https://github.com/manuelmlmadeira/DeFoG
+DeFoG: https://github.com/manuelmlmadeira/DeFoG\\
 Discrete Flow Models: https://github.com/andrew-cr/discrete_flow_models
 
