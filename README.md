@@ -46,3 +46,8 @@ PYTHONPATH=. python src/transition_method.py +experiment=Tox21_MMP dataset=Tox21
 
 We provide a checkpoint for `Tox21_MMP` testing. Use one of the test-only methods above to point `general.test_only` to the file (either via `CKPT_PATH` or a relative path under `checkpoints/`).
 
+
+## Acknowledgements
+DeFoG: https://github.com/manuelmlmadeira/DeFoG
+Discrete Flow Models: https://github.com/andrew-cr/discrete_flow_models
+
